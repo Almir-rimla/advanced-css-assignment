@@ -1,0 +1,111 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+    
+    a[href="http://www.link-group.eu"] { 
+	color: #ff0000;}
+        
+    a[href~="http://www.Google.com"] { 
+                                      
+color: green;
+    }
+    
+    a[href~="https://www.google.com/doodles"]{
+        
+        color:green
+        
+        
+    }
+    
+    
+    
+#second-div p:nth-child(2n+2){
+    
+    color:blue
+}
+    
+    #second-div p:nth-child(2n+1){
+        color: red;
+    }
+    
+    
+    #first-div > p::after{
+        content: "-New";
+     color:yellow
+    }
+
+       Body>p:last-child:hover
+       {
+      font-style: italic;
+  }
+    
+    
+    
+    
+    
+    
+    
+    </style>
+    
+    
+    
+    
+    
+    
+    
+    
+</head>
+<body>
+    
+    <H1> Main Heading</H1>
+    
+<p>Paragraph 1</p>
+<a href="http://www.Google.com">Google</a> <a href="https://www.google.com/doodles">Google Doodles</a>  <a href="http://www.link-group.eu">Goto link group </a>
+
+    <h2>Subheading</h2>
+    
+    
+    
+    
+ <div id="first-div">
+    
+    <P>Paragraph 2</P>
+    <P> Paragraph 3</P>
+                      </div>
+    
+    <h3>Sub subheading</h3>
+    
+    <div id="second-div">
+    
+    <P>Paragraph 4 </P>
+
+   <p> Paragraph 5  </p>
+
+   <p> Paragraph 6 </p>
+</div>
+
+    
+   <p> Paragraph 7</p>
+    
+   <p> Paragraph 8</p>
+    
+   <p>Paragraph 9</p>
+    
+   <p> Paragraph 10</p>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>
